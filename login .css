@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-weight: bold;
+    color: black;
+}
+
+.welcome-back, .you-missed {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.password-container {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+    color: #007BFF;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 5px;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.sign-in-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #f76436;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover {
+    background-color: #e85a2f;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+.social-login img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.register-text {
+    color: #999;
+    margin-top: 15px;
+}
+
+.register-link {
+    font-weight: bold;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Password</title>
+    <link rel="stylesheet" href="forgotpass.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1 class="main-heading">Create New Password</h1>
+            <p class="subheading">Enter your new password if you forgot it</p>
+            <hr class="separator">
+            
+            <form id="password-form">
+                <div class="input-box">
+                    <input type="password" id="password" placeholder="Password" required>
+                    <span class="eye-icon" onclick="togglePassword('password')">👁️</span>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                    <span class="eye-icon" onclick="togglePassword('confirm-password')">👁️</span>
+                </div>
+
+                <button type="submit" class="continue-btn">Continue</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="forgotpass.js"></script>
+</body>
+</html>

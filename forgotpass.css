@@ -1,0 +1,91 @@
+/* General body styling */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centered container for the form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Main heading */
+.main-heading {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Subheading */
+.subheading {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Horizontal line */
+.separator {
+    width: 80%;
+    margin: 20px auto;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Input box styles */
+.input-box {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    font-weight: light;
+}
+
+/* Eye icon for password visibility toggle */
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Continue button */
+.continue-btn {
+    background-color: #f76436;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
